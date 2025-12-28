@@ -23,12 +23,7 @@ To develop a C program using the static storage class in a function with a param
   Read an integer from the user and store it in `input`.
 ### Step 5:
   Call the function `display(input)` five times.
-### Step 6:
-  Inside the `display` function, for each call:  
-  a. Calculate the sum of `base` and `n`.  
-  b. Display the value.  
-  c. Increase the value of `base` by 100.25.
-### Step 7:
+
   Repeat Step 6 for all function calls.
 ### Step 8:
   Stop
@@ -90,9 +85,6 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 3:
   Declare four functions to perform arithmetic operations:  
   - `add(int a, int b)`  
-  - `subtract(int a, int b)`  
-  - `multiply(int a, int b)`  
-  - `divide(int a, int b)`
 ### Step 4:
   Declare a function pointer `int (*operation)(int, int)` to point to any of the arithmetic functions.
 ### Step 5:
@@ -211,9 +203,7 @@ Thus, the program was implemented and executed successfully, and the required ou
   Include the standard input-output library: #include<stdio.h>.
 ### Step 3:
   Define a structure `employee` with the following members:  
-  - `eno` (employee number)  
-  - `ename` (employee name)  
-  - `salary` (employee salary)
+  - `eno` (employee number) 
 ### Step 4:
   Declare an array of structures to store details of multiple employees.
 ### Step 5:
@@ -325,7 +315,7 @@ Thus, the program was implemented and executed successfully, and the required ou
   Define a structure named `date` with members to store:  
   - Current date (`c_date`, `c_month`, `c_year`)  
   - Birth date (`b_date`, `b_month`, `b_year`)  
-  - Calculated age (`cal_date`, `cal_month`, `cal_year`)
+  
 ### Step 4:
   Initialize a structure variable with the current date and birth date values.
 ### Step 5:
@@ -335,11 +325,6 @@ Thus, the program was implemented and executed successfully, and the required ou
   - a. Declare an integer array `month[]` to store the number of days in each month.  
   - b. If the birth date is greater than the current date:  
      - Add the number of days of the previous month to the current date.  
-     - Decrease the current month by 1.  
-  - c. If the birth month is greater than the current month:  
-     - Decrease the current year by 1.  
-     - Add 12 to the current month.  
-  - d. Calculate the age in days, months, and years by subtracting the corresponding birth values from the current values.
 ### Step 7:
   Return the structure pointer containing the calculated age.
 ### Step 8:
