@@ -89,18 +89,10 @@ Thus, the program was implemented and executed successfully, and the required ou
   Declare a function pointer `int (*operation)(int, int)` to point to any of the arithmetic functions.
 ### Step 5:
   Input two integers from the user (`num1` and `num2`).
-### Step 6:
-  Display a menu for the user to choose an operation:  
-  - Add  
-  - Subtract  
-  - Multiply  
-  - Divide
 ### Step 7:
   Read the user’s choice.
 ### Step 8:
   Use a switch statement to assign the function pointer `operation` to the appropriate function based on the user’s choice.  
-  - **Step 8.1:** If the choice is 4 (divide), check if the second number is zero. If yes, display an error and terminate.  
-  - **Step 8.2:** If the choice is invalid, display an error and terminate.
 ### Step 9:
   Call the function using the function pointer and store the result in a variable `result`.
 ### Step 10:
@@ -210,16 +202,10 @@ Thus, the program was implemented and executed successfully, and the required ou
   Input the number of employees, `n`.
 ### Step 6:
   For each employee (`i = 0` to `n-1`), do the following:  
-  - **Step 6.1:** Input employee number.  
-  - **Step 6.2:** Input employee name (allow spaces).  
-  - **Step 6.3:** Input employee salary.  
-  - **Step 6.4 (Optional):** Print the entered details for verification.
 ### Step 7:
   Initialize a variable `high` with the salary of the first employee.
 ### Step 8:
   For each employee (`i = 1` to `n-1`), do the following:  
-  - **Step 8.1:** Compare employee salary with `high`.  
-  - **Step 8.2:** If the salary is greater than `high`, update `high` with this salary.
 ### Step 9:
   Print the details of employee(s) whose salary matches `high`:  
   - **Step 9.1:** Loop through all employees.  
